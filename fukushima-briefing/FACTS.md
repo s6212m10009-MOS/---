@@ -1,0 +1,17 @@
+# FACTS (checked 2026-11-04; the film may only state rows marked VERIFIED)
+| # | Claim | Source and quoted wording | Status |
+|---|---|---|---|
+| 1 | Tohoku earthquake, 11 March 2011, magnitude 9.1 (USGS), origin 05:46:24 UTC (= 14:46 JST) | USGS event `official20110311054624120_30`, API https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=official20110311054624120_30&format=geojson : "M 9.1 - 2011 Great Tohoku Earthquake, Japan", mag 9.1 mww, time 1299822384120 ms = 2011-03-11 05:46:24.120 UTC | VERIFIED |
+| 2 | Fukushima Daiichi is TEPCO's plant | TEPCO report hosted at www4.tepco.co.jp (press release 2011-04-09, not opened in full) | not needed in the film: say "the plant" |
+| 3 | Design-basis tsunami level for Units 1-4 and 5-6: **5.7 m** | Table 4 "Observed Tsunami Levels at Eastern Japan NPSs" (ANS Fukushima Appendix E, citing the Japanese government's report to the IAEA), https://www.ans.org/file/3415/Fukushima_Appendix_E.pdf : "Fukushima Daiichi Units 1 through 4 | 14 to 15 | 10 | 5.7" (columns: estimated maximum tsunami level m / grade level m / design-basis level in establishment permit m) | VERIFIED as a secondary reproduction; primary (government report to IAEA / TEPCO) not opened |
+| 4 | Estimated maximum tsunami level at the site: **14 to 15 m** (same table); TEPCO survey: inundation "approximately O.P. +14 to 15 m (inundation depth: approximately 4 to 5 m) in most of the ocean-side of main building area" | same table; TEPCO survey as quoted in search results (www4.tepco.co.jp/en/press/corp-com/release/betu11_e/images/110409e9.pdf, not opened) | VERIFIED (table); say "estimated 14 to 15 m" |
+| 4b | Site grade level (main building area, Units 1-4): **10 m** (Units 5-6: 13 m) | same Table 4, "Grade Level" column | VERIFIED (secondary) |
+| 5 | Evacuation order for the area within 20 km of the plant, 12 March 2011 | Japanese government (Ministry of the Environment), https://www.env.go.jp/en/chemi/rhm/basic-info/1st/09-04-02.html : "designated the areas within 20 km from the NPS as Areas under Evacuation Orders on March 12." (time 18:25 appears in a search summary of the same report, not quoted from the page) | VERIFIED (date, radius); do not state the time |
+| 6 | Number of people evacuated | IAEA update of 12 March says about 170,000 had left the 20 km area (seen only in a search snippet; the IAEA page returned HTTP 402) | NOT VERIFIED: leave out of the film |
+| 7 | INES level 7 | not checked | NOT VERIFIED: leave out of the film |
+| 8 | Imagery: three Landsat plates, 60 x 60 km, true colour, USGS Landsat via Microsoft Planetary Computer | `LT05_L2SP_107034_20100824_02_T1` (2010-08-24); `LT05_L2SP_107034_20110405_02_T1` (2011-04-05, 3.5 weeks after the event; no clear scene exists nearer); `LC08_L2SP_107034_20210806_02_T1` (2021-08-06). Path 106 scenes rejected (34 % outside the swath). Regional: NASA GIBS MODIS Terra true colour and Blue Marble Next Generation (WMS, 2026-11-04) | VERIFIED (method) |
+
+## What the numbers do NOT say (framing rule)
+- 5.7 m is a **design-basis tsunami level**, not a wall. The main building area sat at a 10 m grade level. Never call it "the wall" in the film or the title.
+- The satellite shows land and coast at 30 m per pixel. It does not show the wave height; the heights come from the cited report, and the film must say so ("the report's estimate"), with the instrument/date of every plate on screen.
+- No casualty, health or radiation claims.

@@ -1,0 +1,5 @@
+Tool: built-in image_gen
+Asset: channel-profile-v1.png
+Prompt: Create a square YouTube channel profile artwork for เล่าไม่รู้บ้าง...รู้บ้าง, a Thai motion graphics storytelling channel about treasures around the world, history and mysteries. Golden antique compass combined with a luminous keyhole and globe/map motifs. Navy and antique gold, mysterious warm glow, bold central silhouette, circle-crop safe, no text or watermark.
+Banner / built-in image_gen: Adapt original navy-gold compass globe keyhole into a wide YouTube banner. Exact title: เล่าไม่รู้บ้าง...รู้บ้าง. Subtitle: สมบัติรอบโลก • ประวัติศาสตร์ • เรื่องลี้ลับ. Center essential content, atmospheric historic landmarks on outer edges. Profile text variant: preserve original emblem and add exact Thai title on a navy-gold nameplate.
+Watermark / built-in image_gen: Bold gold compass ring with four points containing a keyhole silhouette, tiny-size legibility, genuine transparent background, no text or scenery. Export resized with alpha to watermark-150.png.

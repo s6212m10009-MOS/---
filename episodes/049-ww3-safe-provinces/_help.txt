@@ -1,0 +1,63 @@
+# ---------- ไดโอรามาไอโซเมตริก (การ์ดล่าง 960x520) ----------
+ST = "#fff"
+
+
+def it(k, inner, d=0.0):
+    return f'<g class="it" data-k="{k}" data-d="{d}">{inner}</g>'
+
+
+def txt(x, y, s, size=48, col="#fff"):
+    return f'<text x="{x}" y="{y}" font-size="{size}" font-weight="800" fill="{col}" text-anchor="middle" font-family="Kanit">{s}</text>'
+
+
+def iso(cx, cy, w, d, top, left, right, extra=""):
+    hw, hq = w / 2, w / 4
+    return (f'<ellipse cx="{cx}" cy="{cy + hq + d + 14}" rx="{hw * .95}" ry="{hq * .5}" fill="#000" opacity=".35"/>'
+            f'<polygon points="{cx - hw},{cy} {cx},{cy + hq} {cx},{cy + hq + d} {cx - hw},{cy + d}" fill="{left}" stroke="{ST}" stroke-width="4" stroke-linejoin="round"/>'
+            f'<polygon points="{cx},{cy + hq} {cx + hw},{cy} {cx + hw},{cy + d} {cx},{cy + hq + d}" fill="{right}" stroke="{ST}" stroke-width="4" stroke-linejoin="round"/>'
+            f'<polygon points="{cx},{cy - hq} {cx + hw},{cy} {cx},{cy + hq} {cx - hw},{cy}" fill="{top}" stroke="{ST}" stroke-width="4" stroke-linejoin="round"/>{extra}')
+
+
+def isobox(cx, cy, w, h, top, left, right):  # กล่องสูง (ตึก/ถังน้ำ) ฐานอยู่ที่ cy
+    hw, hq = w / 2, w / 4
+    return (f'<polygon points="{cx - hw},{cy - h} {cx},{cy + hq - h} {cx},{cy + hq} {cx - hw},{cy}" fill="{left}" stroke="{ST}" stroke-width="3"/>'
+            f'<polygon points="{cx},{cy + hq - h} {cx + hw},{cy - h} {cx + hw},{cy} {cx},{cy + hq}" fill="{right}" stroke="{ST}" stroke-width="3"/>'
+            f'<polygon points="{cx},{cy - hq - h} {cx + hw},{cy - h} {cx},{cy + hq - h} {cx - hw},{cy - h}" fill="{top}" stroke="{ST}" stroke-width="3"/>')
+
+
+def waves_iso(cx, cy, w, col="#fff", n=3):
+    out = ""
+    for k in range(n):
+        y = cy - w / 8 + k * w / 10
+        out += f'<path d="M{cx - w * .3},{y} q{w * .075},-14 {w * .15},0 t{w * .15},0 t{w * .15},0 t{w * .15},0" fill="none" stroke="{col}" stroke-width="5" stroke-linecap="round" opacity=".85"/>'
+    return out
+
+
+def up_arrow(x, y, h=90, col="#e0243a"):
+    return (f'<path d="M{x},{y} V{y - h}" stroke="{col}" stroke-width="14" stroke-linecap="round"/>'
+            f'<path d="M{x - 26},{y - h + 24} L{x},{y - h - 6} L{x + 26},{y - h + 24}" fill="none" stroke="{col}" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>')
+
+
+def thermo(x, y, h=200, lvl=.85, col="#e0243a"):
+    return (f'<rect x="{x - 22}" y="{y - h}" width="44" height="{h}" rx="22" fill="#fff" stroke="{ST}" stroke-width="5"/>'
+            f'<rect x="{x - 11}" y="{y - h * lvl}" width="22" height="{h * lvl}" rx="11" fill="{col}"/>'
+            f'<circle cx="{x}" cy="{y + 14}" r="38" fill="{col}" stroke="{ST}" stroke-width="5"/>'
+            + "".join(f'<path d="M{x + 22},{y - h + 30 + j * 34} h-14" stroke="#1e1e24" stroke-width="4"/>' for j in range(4)))
+
+
+def sun(x, y, r=56):
+    rays = "".join(f'<path d="M{x + np.cos(a) * (r + 14):.0f},{y + np.sin(a) * (r + 14):.0f} L{x + np.cos(a) * (r + 40):.0f},{y + np.sin(a) * (r + 40):.0f}" stroke="#ffb020" stroke-width="10" stroke-linecap="round"/>' for a in np.linspace(0, 2 * np.pi, 12, endpoint=False))
+    return rays + f'<circle cx="{x}" cy="{y}" r="{r}" fill="#ffd23f" stroke="{ST}" stroke-width="5"/>'
+
+
+def flame(x, y, s=1.0):
+    return (f'<g transform="translate({x},{y}) scale({s})"><path d="M0,-90 Q40,-40 30,-6 Q26,20 0,24 Q-26,20 -30,-6 Q-34,-34 -10,-56 Q-6,-30 6,-30 Q14,-56 0,-90Z" fill="#ff6a1c" stroke="{ST}" stroke-width="5" stroke-linejoin="round"/>'
+            f'<path d="M0,-40 Q16,-16 10,4 Q0,14 -10,4 Q-14,-14 0,-40Z" fill="#ffd23f"/></g>')
+
+
+def person(x, y, s=1.0, col="#fff"):
+    return f'<g transform="translate({x},{y}) scale({s})"><circle cx="0" cy="-58" r="18" fill="{col}"/><path d="M-26,0 Q-26,-36 0,-36 Q26,-36 26,0Z" fill="{col}"/></g>'
+
+
+cracks = "".join(f'<path d="{d}" fill="none" stroke="#5a3418" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>' for d in
+                 ["M340,320 l40,14 l22,-16 l36,20", "M480,286 l-20,26 l26,18 l-12,30", "M560,330 l40,-10 l26,18", "M420,368 l40,8 l18,22", "M600,300 l-24,-14"])

@@ -1,0 +1,30 @@
+# Local secrets written by `elevenlabs onboard`
+/.env.local
+
+# Allowlist: only scripts and documents go to this public repo
+*
+!*/
+!.gitignore
+!*.md
+!*.txt
+!*.srt
+!*.py
+!*.ps1
+
+# Secrets
+.env*
+set_gemini_key.ps1
+*secret*
+*credential*
+
+# Third-party code, backups and tool state
+/lemo-opuscar-main/
+/video-shotcraft-main/
+/_edge_backup_035/
+/.agents/
+/.claude/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.hyperframes/

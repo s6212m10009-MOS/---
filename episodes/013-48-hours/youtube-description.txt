@@ -1,0 +1,52 @@
+ชื่อคลิป (เลือกใช้)
+- 48 ชั่วโมงที่ตลาดโลกพังพร้อมกัน จริงทุกข้อไหม? เอาตะเกียงมาส่องทีละข้อ
+- ข่าวร้ายมาพร้อมกันทุกตลาด บังเอิญหรือมีด้ายผูกกันอยู่?
+
+คำอธิบาย
+48 ชั่วโมงที่ผ่านมา (29–31 ต.ค. 2569) ข่าวร้ายถล่มทุกตลาดพร้อมกัน ตั้งแต่ Binance ถูกแฮ็ก Bitcoin หลุด 78,000 ทองต่ำสุดในรอบปี จนถึง Intel ดิ่งแรงสุดตั้งแต่ปี 1974
+คลิปนี้เช็กโพสต์ที่แชร์กันทีละข้อ ว่าข้อไหนยืนยันได้ ข้อไหนจริงครึ่งเดียว และข้อไหนยังหาที่มาไม่ได้
+
+เข็มทิศหลักฐาน
+🟢 ยืนยัน · 🟠 จริงครึ่งเดียว/สันนิษฐาน · ⚪ ยังไม่มีคำตอบ · 🟣 ไม่มีหลักฐาน
+
+สรุปผลตรวจ
+✅ Binance ถูกแฮ็กราว $6.3B ใหญ่ที่สุดเท่าที่มีบันทึก (ผู้ก่อเหตุ: นักวิเคราะห์ชี้เกาหลีเหนือ = ข้อสันนิษฐาน)
+✅ Bitcoin หลุด $78,000 (แถว $77,000 วันที่ 30 ต.ค.)
+✅ ทองปิด $3,875 ต่ำสุดในรอบ 1 ปี (ร่วงราว 5% จากจุดสูงในสัปดาห์)
+🟠 Nasdaq -2.9% จริง แต่แย่สุดตั้งแต่ มิ.ย. ไม่ใช่รอบปีครึ่ง
+✅ Intel -28.6% แรงสุดตั้งแต่ปี 1974
+✅ หุ้นชิปร่วง AMD ~10% · ASML/TSMC ~5–6% · Nvidia ~4% (ตัวเลขต่างกันเล็กน้อยตามแหล่ง)
+🟠 หุ้น AI จีนร่วงจริง (STAR50 -40% จากจุดสูง มิ.ย.) แต่เป็นการไหลลงหลายเดือน
+🟠 Reddit ลง 8 วันติด รวมราว -41% ไม่ใช่ -50%
+⚪ มูลค่าหุ้นสหรัฐหาย $1.8 ล้านล้าน: พบแหล่งเดียว (สื่อหลักยืนยันหุ้นเทค > $1 ล้านล้านในวันเดียว)
+✅ น้ำมัน WTI เหนือ $100 (มีรายงานราว $104)
+🟠 Polymarket ถูกแฮ็กผ่านผู้ให้บริการภายนอก หยุดเทรดราว 1 ชม. ไม่ใช่ 30 นาที
+✅/⚪ สายการบินใหญ่งดบินตะวันออกกลางจริง แต่ตัวเลข "25 ประเทศ" ยังหาต้นทางไม่ได้
+⚪ "หลายประเทศเตรียมรับมือ ไทยยังนิ่ง": ยังไม่พบรายงานใน 48 ชม. ที่ยืนยันได้
+
+ข้อมูล ณ วันที่ 1 พ.ย. 2569 ตัวเลขตลาดเปลี่ยนตลอด ตรวจราคาล่าสุดก่อนตัดสินใจ
+คลิปนี้ไม่ใช่คำแนะนำการลงทุน
+
+แหล่งข้อมูล
+- Elliptic: https://www.elliptic.co/insights/binance-largest-hack-in-history/
+- TRM Labs: https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history
+- Axios: https://www.axios.com/2026/10/29/binance-cyberattack-crypto-heist
+- Al Jazeera: https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue
+- NBC News (Binance): https://www.nbcnews.com/business/markets/binance-hack-tether-circle-stablecoins-rcna606445
+- Proactive Investors (Bitcoin): https://www.proactiveinvestors.com/companies/news/1100975/bitcoin-slides-below-78-000-as-crypto-sell-off-hits-ethereum-xrp-and-solana-1100975.html
+- FMV Gold (ทอง): https://fmvgold.com/the-week-in-metals-silver-breaks-50-as-gold-posts-its-lowest-close-of-the-year/
+- Yahoo Finance (Intel): https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-30-on-pace-for-its-worst-day-since-1974-135850305.html
+- Benzinga (หุ้นชิป): https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom
+- The Globe and Mail (Nasdaq): https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai/
+- NBC News (หุ้นเทค $1 ล้านล้าน): https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512
+- CNN (หุ้น AI จีน): https://www.cnn.com/2026/10/30/markets/china-ai-stocks-selloff-intl-hnk
+- Business Recorder (จีน): https://www.brecorder.com/news/40446726/china-stocks-post-biggest-monthly-loss-on-ai-selloff
+- Trefis (Reddit): https://www.trefis.com/stock/rddt/articles/621738/8-red-days-in-a-row-reddit-stock-is-down-41/2026-10-31
+- Yahoo Finance (Reddit): https://finance.yahoo.com/markets/article/reddit-pinterest-and-roblox-stocks-tank-after-q3-earnings-134009780.html
+- Gulf News (น้ำมัน/เที่ยวบิน): https://gulfnews.com/uae/uae-update-fuel-prices-oil-spill-recovery-flight-disruptions-us-iran-tensions-1.500730599
+- BleepingComputer (Polymarket): https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/
+- Yahoo (Polymarket): https://www.yahoo.com/news/us/articles/polymarket-trading-halted-vendor-compromise-190916420.html
+- Arab Times (สายการบิน): https://arabtimesonline.com/news/middle-east-escalation-keeps-singapore-airlines-away-from-dubai-until-february-2027
+- Benzinga (โอกาสเฟดขึ้นดอกเบี้ย): https://www.benzinga.com/markets/prediction-markets/26/10/62669263/fed-december-hike
+
+#ข่าวเศรษฐกิจ #Binance #Bitcoin #ทองคำ #หุ้น #เล่าไม่รู้บ้างรู้บ้าง
